@@ -1,0 +1,30 @@
+{
+  "sample-air-defence": {
+    "id": "sample-air-defence",
+    "name": "Sample Air Defence Mission",
+    "description": "",
+    "tasks": [
+      {
+        "id": "T03",
+        "name": "Air Defence Task 3",
+        "threat": 0.3,
+        "resource_gap": 0.3,
+        "uncertainty": 0.3,
+        "complexity": 0.3,
+        "criticality": 0.5,
+        "base_risk": null
+      },
+      {
+        "id": "T12",
+        "name": "Air Defence Task 12",
+        "threat": 0.3,
+        "resource_gap": 0.3,
+        "uncertainty": 0.3,
+        "complexity": 0.3,
+        "criticality": 0.5,
+        "base_risk": null
+      }
+    ],
+    "relations": []
+  }
+}

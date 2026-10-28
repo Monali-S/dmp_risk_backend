@@ -1,0 +1,18 @@
+{
+  "id": "sample-air-defence",
+  "name": "Sample Air Defence Mission",
+  "type": "defence",
+  "status": "pending",
+  "tasks": [
+    {
+      "id": "T03",
+      "name": "Air Defence Task 3",
+      "status": "pending"
+    },
+    {
+      "id": "T12",
+      "name": "Air Defence Task 12",
+      "status": "pending"
+    }
+  ]
+}
