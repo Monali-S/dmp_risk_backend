@@ -55,14 +55,4 @@ Or press F5 and choose "FastAPI (uvicorn)" (config in `.vscode/launch.json`).
 
 Quick try in the Swagger UI: `GET /samples/air-defence`, copy the JSON into `POST /predict`.
 
-## Honest limitations (put these in your report)
 
-* The benchmark compares the analytic model to a Monte Carlo simulator that uses the **same
-  dependency mechanism**, so near-zero error is a *self-consistency check*, not proof of
-  real-world accuracy. Validate against real/public historical data in Phase II.
-* The entropy baseline uses different factor weights than the model, so the
-  *independence baseline* is the cleaner comparison (same inputs, relations ignored).
-* All data is synthetic. Relation strengths and factor weights are assumptions to be elicited
-  from domain experts or learned from data.
-* `critical_failure_prob` multiplies marginals, which ignores correlation between failures and
-  slightly overestimates (see the sample output).
